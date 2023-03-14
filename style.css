@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bangers&family=Racing+Sans+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'racing sans one', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.heading {
+    font-size: 25px;
+    color:rgb(255, 72, 0);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+img {
+    width: 370px;
+}
+
+.sentence {
+    font-size: 25px;
+    color:rgb(170, 215, 255);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+span {
+    color: rgb(19, 223, 0);
+    font-size: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.btn {
+    font-family: 'racing sans one';
+    font-size: 25px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(195, 0, 255);
+    color: rgb(169, 213, 255);
+    border-style: none;
+    width: 100px;
+    box-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px black;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn:active {
+    box-shadow: 0px 0px 0px black;
+    background-color: rgb(214, 78, 255);
+    color:rgb(255, 230, 0);
+}
