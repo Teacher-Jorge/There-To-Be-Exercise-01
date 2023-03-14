@@ -2,36 +2,44 @@
 
 * {
     box-sizing: border-box;
-}
-
-body {
-    font-family: 'racing sans one', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin: 0;
+    padding: 0;
 }
 
 .heading {
-    font-size: 25px;
-    color:rgb(255, 72, 0);
-    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'bangers';
+    font-size: 30px;
+    color: rgb(204, 0, 255);
+    text-shadow: 1px 1px 2px black;
 }
 
-img {
+.image {
+    display: flex;
     width: 370px;
+    margin: 0 auto;
 }
 
 .sentence {
-    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: 'racing sans one';
+    font-size: 35px;
     color:rgb(170, 215, 255);
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: rgb(19, 223, 0);
-    font-size: 30px;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
 }
 
 .buttons {
@@ -42,7 +50,7 @@ span {
 
 .btn {
     font-family: 'racing sans one';
-    font-size: 25px;
+    font-size: 30px;
     margin: 5px;
     padding: 5px;
     border-radius: 10px;
@@ -53,7 +61,7 @@ span {
     box-shadow: 1px 1px 2px black;
     text-shadow: 1px 1px 2px black;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .btn:active {
