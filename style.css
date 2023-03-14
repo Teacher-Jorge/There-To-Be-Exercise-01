@@ -6,6 +6,15 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aliceblue;
+    width: 350px;
+    margin: 0 auto;
+}
+
 .heading {
     margin-top: 10px;
     display: flex;
