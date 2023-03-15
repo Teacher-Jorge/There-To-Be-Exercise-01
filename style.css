@@ -6,7 +6,6 @@
     margin: 5px auto;
     justify-content: center;
     display: grid;
-    background-color: aliceblue;
 }
 
 .heading {
@@ -47,6 +46,26 @@ span {
     box-shadow: 1px 1px 2px black;
     border-radius: 10px;
     color: rgb(135, 227, 255);
+    text-shadow: 1px 1px 2px black;
+    cursor: pointer;
+}
+
+.translate {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+#btnTranslate {
+    width: 330px;
+    margin: 5px;
+    font-family: 'racing sans one';
+    font-size: 25px;
+    background-color: aliceblue;
+    border-style: none;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 10px;
+    color: rgb(232, 58, 255);
     text-shadow: 1px 1px 2px black;
     cursor: pointer;
 }
