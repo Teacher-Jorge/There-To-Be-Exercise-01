@@ -27,8 +27,15 @@ body {
 
 .image {
     display: flex;
-    width: 370px;
-    margin: 0 auto;
+    width: 380px;
+    margin: 5px auto;
+}
+
+.container {
+    max-width: 680px;
+    margin: 5px auto;
+    display: grid;
+    grid-template-columns: 100%;
 }
 
 .sentence {
